@@ -1,0 +1,10 @@
+class SitioController < ApplicationController
+  def index
+  end
+
+  def quienes
+  end
+
+  def ayuda
+  end
+end

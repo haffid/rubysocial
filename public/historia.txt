@@ -1,0 +1,105 @@
+2011-11-16 V0.1.8
+- Pagineo en los mensajes de mi perfil
+- La seccion de mensajes cambio a anuncios
+- El listado de temas ahora es simple y la informacion esta en tooltips
+- Se colocaron multiples textos alternos para los avatars y fotografias inexistentes
+- Ahora solo se envian buenos meritos
+- Ahora los meritos son visibles por todos
+- Cambios en la vista del usuario
+- Se expusieron los comentarios del tema en el resumen y en el tema mismo
+
+
+2011-11-16 V0.1.7
+- El tecolote ahora despierta a las 18
+- Se corrigio el cierre automatico con nulos y estados 0
+- Se corrigio error con nulos en el tiempo del comentario
+- Ahora se lleva la conversacion por usuario
+- Los mensajes ahora tienen la opcion de notificarse por email
+- Iconos nuevos para los mensajes y correo electronico
+- Las fotografias ahora son visibles por el administrador
+
+
+2011-11-10 V0.1.6
+- El tecolote ahora duerme de dia y vive abajo
+- Se corrigio la ruta cuando se borra un mensaje
+- Los mensajes personales se colocaron a la derecha del usuario
+- Se reubico el borrar mensajes personales 
+- Se reordeno los aportes y temas de los usuarios en los perfiles
+- Ahora se paginea cada 15 temas la seccion
+- Ahora se paginea cada 25 comentarios en el tema
+- Cerrado automatico global para todos los temas de una seccion
+
+
+2011-10-25 V0.1.5
+- Se agrego fotografia al usuario
+- Se agrego comentarios al tema y documento de entrega
+- Se presentan avatares en los integrantes
+
+2011-10-22 V0.1.4
+- Se modifico el metodo de conteo de mensajes personales para que no impactara la sesion
+- Se aseguro el ingreso de nuevos usuarios para que no fuera posible inyectar posts destructivos
+
+2011-10-22 V0.1.3
+- Los temas se puden cambiar de seccion
+- Los mensajes ahora tiene fechas y horas de envio y recepcion
+- Correccion de invalidez de valores en el resumen
+- Correccion Mensajes y meritos cuando el usuario no esta registrado
+- Correccion de temas por color cuando presenta integrantes
+
+2011-10-20 V0.1.2
+- Mensajes personales entre usuarios.
+- Avatars en los temas, por que algunos usuarios no encontraban los propios.
+- Méritos entre los usuarios, estrellas y piedras.
+- Busqueda de texto entre comentarios y temas.
+- Se arreglo el template para pantallas de 24" o mayores.
+
+2011-10-18 V0.1.1
+- Hurra!!!, tenemos el primer RC
+- Los creadores de temas pueden cerrar sus temas
+- Los integrantes pueden comentar siempre que un creador de temas los agregue a un tema
+- Los usuarios registrados no necesitan hacer petición formal
+- Se limita el número de integrantes
+- Mensajes globales de parte del administrador
+
+2011-10-14 V0.0.9
+- Se agregan integrantes a los temas
+- Se agregan notas a los integrantes
+- Los usuarios registrados deben hacer la petición formal
+- Los usuarios ahora tienen página personal
+
+2011-10-14 V0.0.8
+- Se modifico el orden de los temas por actualizacion
+- Se cambiaron algunos iconos
+- Se modifico el template para optimizar el uso de la pantalla
+- Se agrega el registro de usuarios
+
+2011-10-12 V0.0.7
+- Se modifico el template para optimizar el espacio de los comentarios
+- Los comentarios se pueden cambiar de tema
+- Los temas tienen prioridad
+- Se aplico refactoring en el layout y en el css para que quedaran standard
+- Los mortales podran modificar sus temas
+- Hay un icono para generar resumen en cada tema
+
+2011-10-07 V0.0.6
+- Se añadieron el tipo de actividad y el tipo de gasto al detalle de actividad
+- Se modifico la presentcion de los temas de usuario
+- Se modifico ligeramente en template
+
+2011-10-06 V0.0.5
+- Se organizaron los datos dentro de las secciones, temas y comentarios.
+- Se reordenaron los datos, los mas actuales al principio
+- Se eliminaron los avatars de los temas
+- Se implemento la edicion de temas y comentarios propios
+
+2011-10-02 V0.0.3 
+- Se agrego Tipo Gasto y Tipo actividad con hashes comunes. 
+- El texto de introduccion se ha formateado con n2br
+- Se modifico el layout para ser mas ancho
+- Agregar usuario en la tabla de inicio
+- Iniciar con inicio 
+- Agrandar avatars 
+
+2011-10-01 V0.0.2 Se agregaron campo de tiempo y columnas correspondientes en los indices de comentarios
+
+2011-10-01 V0.0.1 Version inicial frente a los alumnos.

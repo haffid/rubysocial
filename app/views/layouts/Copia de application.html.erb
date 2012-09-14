@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title><%= @titulo %> </title>
+		<style type="text/css">
+			* {
+				padding:0px;
+				margin:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:auto;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav li a {
+				background-color:#0072C6;
+				color:#FFF;
+				text-decoration:none;
+				padding:8px 15px;
+				display:block;			
+			}
+			
+			.nav li a:hover {
+				background-color:#0064AE;
+			}
+			.nav > li{
+				float:left;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li{
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;				
+			}				
+		</style>
+</head>
+<body background ="images/img01.jpg">
+
+<div id="header">
+		<ul class="nav">
+			<li><%= link_to "Inicio", :controller=>"sitio", :action=>"index" %></li>
+
+			<li><a href="">Archivo</a>
+				<ul>
+					<li><%= link_to "Entradas", :controller=>"sitio", :action=>"index" %></li>
+					<li><%= link_to "Quienes Somos", :controller=>"sitio", :action=>"quienes" %></li>
+					<li><%= link_to "Registro", :controller=>"registro", :action=>"index" %></li>
+					<li><a href="">Submenu 4</a>
+						<ul>
+						<li><a href="">Submenu 1</a></li>
+						<li><a href="">Submenu 2</a></li>
+						<li><a href="">Submenu 3</a></li>
+						<li><a href="">Submenu 4</a>
+                        <ul>
+						<li><a href="">Submenu 1</a></li>
+						<li><a href="">Submenu 2</a></li>
+						<li><a href="">Submenu 3</a></li>
+						<li><a href="">Submenu 4</a></li>
+						</ul>
+                        </li>
+						</ul>
+					</li>	
+				</ul>
+			</li>
+
+			<li><a href="">Acerca de</a>
+				<ul>
+				<li><a href="">Submenu 1</a></li>
+				<li><a href="">Submenu 2</a></li>
+				<li><a href="">Submenu 3</a></li>
+				<li><a href="">Submenu 4</a></li>	
+				</ul>
+			</li>
+
+			<li><a href="">Contacto</a></li>
+		</ul>
+		</div><br><br><br>
+<%= yield %>
+
+		</body>
+	</html>
